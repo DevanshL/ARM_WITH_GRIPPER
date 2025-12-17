@@ -1,1 +1,0 @@
-/home/devansh/ros2_ws/src/my_robot_moveit_config/launch/warehouse_db.launch.py
