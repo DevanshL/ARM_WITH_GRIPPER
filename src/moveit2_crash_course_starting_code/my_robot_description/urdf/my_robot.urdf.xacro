@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_robot">
+
+    <!-- Include all component files -->
+    <xacro:include filename="common_properties.xacro" />
+    <xacro:include filename="arm.xacro" />
+    <xacro:include filename="gripper.xacro" />
+    
+    <!-- Gazebo-specific configuration MUST come after all links/joints are defined -->
+    <xacro:include filename="gazebo.xacro" />
+
+</robot>

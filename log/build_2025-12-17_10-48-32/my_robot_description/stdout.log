@@ -1,0 +1,42 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/devansh/miniconda3/bin/python3 (found version "3.13.9") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/devansh/ros2_ws/build/my_robot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/arm.xacro
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/common_properties.xacro
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/gazebo.xacro
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/gripper.xacro
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot.urdf.xacro
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/launch/display.launch.xml
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/rviz/urdf_config.rviz
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+-- Symlinking: /home/devansh/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml

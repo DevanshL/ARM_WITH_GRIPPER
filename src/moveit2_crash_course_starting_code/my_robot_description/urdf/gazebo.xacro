@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- ros2_control integration with Gazebo Harmonic -->
+    <gazebo>
+        <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+            <parameters>$(find my_robot_moveit_config)/config/ros2_controllers.yaml</parameters>
+            <robot_param>robot_description</robot_param>
+            <robot_param_node>robot_state_publisher</robot_param_node>
+        </plugin>
+    </gazebo>
+
+    <!-- Gazebo material colors -->
+    <gazebo reference="base_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="shoulder_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="arm_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="elbow_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="forearm_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="wrist_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="hand_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="gripper_base_link">
+        <material>Gazebo/DarkGreen</material>
+    </gazebo>
+
+    <gazebo reference="gripper_left_finger_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="gripper_right_finger_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+</robot>

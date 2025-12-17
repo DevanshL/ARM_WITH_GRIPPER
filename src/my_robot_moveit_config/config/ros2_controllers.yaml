@@ -1,0 +1,75 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+arm_controller:
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+      - joint3
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
+    
+    # PID gains for stable simulation (tuned for Gazebo)
+    gains:
+      joint1:
+        p: 100.0
+        d: 10.0
+        i: 0.0
+        i_clamp: 1.0
+      joint2:
+        p: 100.0
+        d: 10.0
+        i: 0.0
+        i_clamp: 1.0
+      joint3:
+        p: 100.0
+        d: 10.0
+        i: 0.0
+        i_clamp: 1.0
+
+gripper_controller:
+  ros__parameters:
+    joints:
+      - wrist_rotation_joint
+      - gripper_left_finger_joint
+      - gripper_right_finger_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
+    
+    # PID gains for gripper
+    gains:
+      wrist_rotation_joint:
+        p: 100.0
+        d: 10.0
+        i: 0.0
+        i_clamp: 1.0
+      gripper_left_finger_joint:
+        p: 50.0
+        d: 5.0
+        i: 0.0
+        i_clamp: 1.0
+      gripper_right_finger_joint:
+        p: 50.0
+        d: 5.0
+        i: 0.0
+        i_clamp: 1.0
